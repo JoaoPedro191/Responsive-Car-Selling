@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Tutorial completo de design de site de venda de carros responsivos
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- início da seção de cabeçalho -->
+
+    <header class="header">
+      <!-- MENU-BOTAO -->
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <!-- LOGO -->
+
+      <a href="#" class="logo"> <span>max</span>wheels</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">veiculos</a>
+        <a href="#services">serviços</a>
+        <a href="#featured">destaque</a>
+        <a href="#reviews">revisão</a>
+        <a href="#contact">contato</a>
+      </nav>
+
+      <div id="login-btn">
+        <button class="btn">Login</button>
+        <i class="far fa-user"></i>
+      </div>
+    </header>
+
+    <!-- fim da seção do cabeçalho -->
+
+    <div class="login-form-container">
+      <span class="fas fa-times" id="close-login-form"></span>
+
+      <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box" />
+        <input type="password" placeholder="password" class="box" />
+        <p>forget your password <a href="#">clique aqui</a></p>
+        <input type="submit" value="login now" class="btn" />
+        <p>or login with</p>
+        <div class="buttons">
+          <a href="#" class="btn">google</a>
+          <a href="#" class="btn">Facebook</a>
+        </div>
+        <p>dont have an account <a href="#">criar uma</a></p>
+      </form>
+    </div>
+
+    <!-- início da seção inicial-->
+
+    <section class="home" id="home">
+      <h1 class="home-parallax" data-speed="-2">encontre seu carro</h1>
+      <img
+        class="home-parallax"
+        data-speed="5"
+        src="./assets/home-img.png"
+        alt=""
+      />
+      <a href="#" class="btn home-parallax" data-speed="7">explorar carros</a>
+    </section>
+
+    <!-- fim da seção inicial -->
+
+    <!-- seções de ícones começam -->
+
+    <section class="icons-container">
+      <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+          <h3>150+</h3>
+          <p>branches</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>4770+</h3>
+          <p>cars sold</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+          <h3>590+</h3>
+          <p>clientes felizes</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>890+</h3>
+          <p>novos carros</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- seções de ícones terminam -->
+
+    <!-- seções dos veiculos começam -->
+
+    <section class="vehicles" id="vehicles">
+      <h1 class="heading">popular <span>veiculos</span></h1>
+
+      <div class="swiper veiculos-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-1.png" alt="" />
+            <div class="content">
+              <h3>novos modelos</h3>
+              <div class="price"><span>preço: </span>$65000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatico
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-2.png" alt="" />
+            <div class="content">
+              <h3>novos modelos</h3>
+              <div class="price"><span>preço: </span>$65000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatico
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-3.png" alt="" />
+            <div class="content">
+              <h3>novos modelos</h3>
+              <div class="price"><span>preço: </span>$65000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatico
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-4.png" alt="" />
+            <div class="content">
+              <h3>novos modelos</h3>
+              <div class="price"><span>preço: </span>$65000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatico
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-5.png" alt="" />
+            <div class="content">
+              <h3>novos modelos</h3>
+              <div class="price"><span>preço: </span>$65000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatico
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-6.png" alt="" />
+            <div class="content">
+              <h3>novos modelos</h3>
+              <div class="price"><span>preço: </span>$65000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatico
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- seções dos veiculos terminam -->
+
+    <!-- seção de serviços iniciando -->
+
+    <section class="services" id="services">
+      <h1 class="heading">our <span>serviços</span></h1>
+
+      <div class="box-container">
+        <div class="box swiper-slide">
+          <i class="fas fa-car"></i>
+          <h3>car selling</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+            eveniet vitae nostrum maxime veniam quia doloremque mollitia
+            voluptas repudiandae quod culpa earum atque.
+            <a href="#" class="btn">consulte Mais informação</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-tools"></i>
+          <h3>parts repair</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+            eveniet vitae nostrum maxime veniam quia doloremque mollitia
+            voluptas repudiandae quod culpa earum atque.
+            <a href="#" class="btn">consulte Mais informação</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-car-crash"></i>
+          <h3>car insurance</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+            eveniet vitae nostrum maxime veniam quia doloremque mollitia
+            voluptas repudiandae quod culpa earum atque.
+            <a href="#" class="btn">consulte Mais informação</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-car-battery"></i>
+          <h3>battery replacement</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+            eveniet vitae nostrum maxime veniam quia doloremque mollitia
+            voluptas repudiandae quod culpa earum atque.
+            <a href="#" class="btn">consulte Mais informação</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-gas-pump"></i>
+          <h3>oil change</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+            eveniet vitae nostrum maxime veniam quia doloremque mollitia
+            voluptas repudiandae quod culpa earum atque.
+            <a href="#" class="btn">consulte Mais informação</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 support</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+            eveniet vitae nostrum maxime veniam quia doloremque mollitia
+            voluptas repudiandae quod culpa earum atque.
+            <a href="#" class="btn">consulte Mais informação</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- seção de serviços terminando -->
+
+    <!-- início da seção em destaque-->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>destaque</span>Carros</h1>
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="box swiper-slide">
+            <img src="./assets/car-1.png" alt="" />
+            <h3>novo modelo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">Verificação de saída</a>
+          </div>
+
+          <div class="box swiper-slide">
+            <img src="./assets/car-2.png" alt="" />
+            <h3>novo modelo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">Verificação de saída</a>
+          </div>
+
+          <div class="box swiper-slide">
+            <img src="./assets/car-3.png" alt="" />
+            <h3>novo modelo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">Verificação de saída</a>
+          </div>
+
+          <div class="box swiper-slide">
+            <img src="./assets/car-4.png" alt="" />
+            <h3>novo modelo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">Verificação de saída</a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./assets/car-5.png" alt="" />
+            <h3>novo modelo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">Verificação de saída</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/car-6.png" alt="" />
+            <h3>novo modelo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">Verificação de saída</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/car-7.png" alt="" />
+            <h3>novo modelo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">Verificação de saída</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/car-8.png" alt="" />
+            <h3>novo modelo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">Verificação de saída</a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- final da seção em destaque? -->
+
+    <!-- inicio da seção Boletim de Notícias -->
+
+    <section class="newsletter">
+      <h3>subscribe for latest updates</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+        expedita debitis molestias ducimus esse delectus harum fuga repudiandae
+        reprehenderit voluptatem. Obcaecati ullam blanditiis consequatur
+        repellendus laborum ab ipsam maiores unde!
+      </p>
+
+      <form action="">
+        <input type="email" placeholder="entre com seu email" name="" id="" />
+        <input type="submit" name="" class="subscribe" id="" />
+      </form>
+    </section>
+
+    <!-- final a seção Boletim de Notícias  -->
+
+    <!-- seção de revisão começa -->
+
+    <section class="reviews" id="reviews">
+      <h1 class="heading">clientes <span>revisão</span></h1>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="/assets/pic-1.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>john deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/assets/pic-2.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>john deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="/assets/pic-3.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>john deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="/assets/pic-4.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>john deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="/assets/pic-5.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>john deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="/assets/pic-6.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>john deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- seção de revisão termina -->
+
+    <!-- seção de contato começa -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contatos</span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61414.33811348955!2d-48.09152483940123!3d-15.835764021740275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a32eb9657e16f%3A0x4153e84da2a38cae!2sAlameda%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1642282224885!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>entrar em contato</h3>
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="number" placeholder="number" class="box" />
+          <textarea
+            placeholder="message"
+            class="box"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- seção de contato termina -->
+
+    <!-- seção do rodapé começa -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>nossas filiais</h3>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>India</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>França</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Africa</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Australia</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Russia</a>
+        </div>
+
+        <div class="box">
+          <h3>Links Rápidos</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Veiculos</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Serviços</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>destaque</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>contato</a>
+        </div>
+
+        <div class="box">
+          <h3>Links Rápidos</h3>
+          <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+          <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+          <a href="#"><i class="fas fa-envelope"></i>shaikhanas@gmail.com </a>
+          <a href="#"
+            ><i class="fas fa-map-marker-alt"></i>mumbai, india -400104
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Links Rápidos</h3>
+          <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+          <a href="#"><i class="fab fa-instagram"></i>Intagram</a>
+          <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+          <a href="#"><i class="fab fa-pinterest"></i>Pinterest</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- seção do rodapé  termina -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- SCRIPTS -->
+    <script src="script.js"></script>
+  </body>
+</html>
