@@ -488,7 +488,7 @@ header .logo span {
 }
 
 .newsletter form input[type="submit"]:hover {
-  background: var(--black);
+  background-color: var(--yellow);
 }
 
 .reviews .review-slider {
